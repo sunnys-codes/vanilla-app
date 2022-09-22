@@ -1,9 +1,13 @@
+
 body {
     font-family: arial, sans-serif;
+    background: #151414;
+    opacity: 0.8;
   }
   
+  
   h1 {
-    color: #878787;
+    color: #d466d4;
     font-size: 24px;
     font-weight: 100;
     line-height: 28px;
@@ -20,7 +24,7 @@ body {
     margin: 0;
     padding: 0;
   
-    color: rgb(135, 135, 135);
+    color: #d466d4;
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
@@ -37,10 +41,23 @@ body {
   
   .weather-app {
     padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 5px;
+    color: #d466d4;
+
   }
   
+  .box {
+    box-shadow: 10px 5px 5px #d466d4;
+    border-radius: 20px;
+    border-radius: 50% 50% 5 5;
+
+  }
+
+  .btn {
+    color: #161516;
+    background: #d466d4;
+    border: #734873;
+    border-radius: 50% 50% 5 5;
+  }
   .overview {
     margin-bottom: 20px;
   }
@@ -52,7 +69,7 @@ body {
   }
   
   .weather-temperature strong {
-    color: rgb(33, 33, 33);
+    color: #d466d4;
     font-size: 64px;
     line-height: 1;
     font-weight: 400;
@@ -65,23 +82,31 @@ body {
   }
   
   .weather-temperature .active {
-    color: rgb(33, 33, 33);
+    color: #d466d4;
     cursor: default;
+    background: linear-gradient(#eddded, #dec4db);
   }
   
   .weather-temperature .active:hover {
     text-decoration: none;
+    
+
   }
   
   .weather-forecast {
     margin-top: 20px;
     text-align: center;
-    color: #000;
+    color: #d466d4;
+    
+
   }
   
-  .weather-forecast-date {
+  .weather-forecast-date:hover  {
     font-size: 16px;
     opacity: 0.5;
+    background: linear-gradient(#eddded, #dec4db);
+    opacity: 0.5;
+    border: #d466d4;
   }
   
   .weather-forecast-temperature-min {
